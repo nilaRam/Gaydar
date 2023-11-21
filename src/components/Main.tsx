@@ -3,7 +3,7 @@ import {Image} from "astro:assets";
 import {useEffect} from "react";
 import {motion, useMotionValue} from "framer-motion";
 
-const NUMBER_OF_PEOPLE = 4
+const NUMBER_OF_PEOPLE = 6
 
 const Main = () => {
     const [currentPersonID, setCurrentPersonID] = useState<number>(1)
